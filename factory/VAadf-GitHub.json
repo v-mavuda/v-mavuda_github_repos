@@ -1,0 +1,9 @@
+{
+	"name": "VAadf-GitHub",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6fa73517-f4b5-46ad-b570-501d5f17d754",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
