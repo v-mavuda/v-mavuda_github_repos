@@ -1,0 +1,9 @@
+{
+	"name": "adfGithub-Tej",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c2a16613-57cd-487a-a40a-66666e512207",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
