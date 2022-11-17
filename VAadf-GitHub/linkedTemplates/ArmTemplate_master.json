@@ -7,19 +7,19 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "VAadf-GitHub"
 		},
-		"LS_CSV_Source_VA_accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'LS_CSV_Source_VA'"
-		},
 		"LS_CSV_Sink_VA_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_CSV_Sink_VA'"
 		},
-		"LS_CSV_Source_VA_properties_typeProperties_url": {
+		"LS_CSV_Source_VA_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_CSV_Source_VA'"
+		},
+		"LS_CSV_Sink_VA_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://vastorageaccountgen2.dfs.core.windows.net"
 		},
-		"LS_CSV_Sink_VA_properties_typeProperties_url": {
+		"LS_CSV_Source_VA_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://vastorageaccountgen2.dfs.core.windows.net"
 		},
@@ -50,17 +50,17 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"LS_CSV_Source_VA_accountKey": {
-						"value": "[parameters('LS_CSV_Source_VA_accountKey')]"
-					},
 					"LS_CSV_Sink_VA_accountKey": {
 						"value": "[parameters('LS_CSV_Sink_VA_accountKey')]"
 					},
-					"LS_CSV_Source_VA_properties_typeProperties_url": {
-						"value": "[parameters('LS_CSV_Source_VA_properties_typeProperties_url')]"
+					"LS_CSV_Source_VA_accountKey": {
+						"value": "[parameters('LS_CSV_Source_VA_accountKey')]"
 					},
 					"LS_CSV_Sink_VA_properties_typeProperties_url": {
 						"value": "[parameters('LS_CSV_Sink_VA_properties_typeProperties_url')]"
+					},
+					"LS_CSV_Source_VA_properties_typeProperties_url": {
+						"value": "[parameters('LS_CSV_Source_VA_properties_typeProperties_url')]"
 					}
 				}
 			},

@@ -5,16 +5,16 @@
 		"factoryName": {
 			"value": "VAadf-GitHub"
 		},
-		"LS_CSV_Source_VA_accountKey": {
-			"value": ""
-		},
 		"LS_CSV_Sink_VA_accountKey": {
 			"value": ""
 		},
-		"LS_CSV_Source_VA_properties_typeProperties_url": {
-			"value": "https://vastorageaccountgen2.dfs.core.windows.net"
+		"LS_CSV_Source_VA_accountKey": {
+			"value": ""
 		},
 		"LS_CSV_Sink_VA_properties_typeProperties_url": {
+			"value": "https://vastorageaccountgen2.dfs.core.windows.net"
+		},
+		"LS_CSV_Source_VA_properties_typeProperties_url": {
 			"value": "https://vastorageaccountgen2.dfs.core.windows.net"
 		},
 		"containerUri": {
