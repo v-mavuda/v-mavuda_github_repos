@@ -1,0 +1,31 @@
+{
+	"name": "DS_CSV_Source_VA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_CSV_Source_VA",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "export.csv",
+				"folderPath": "VA_adf_Source",
+				"fileSystem": "vacontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
