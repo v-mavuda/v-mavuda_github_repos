@@ -1,0 +1,19 @@
+{
+	"name": "WaitGIT_copy11",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1GIT",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-11-17T08:55:10Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
