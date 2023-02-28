@@ -1,19 +1,19 @@
 {
-	"name": "WaitGIT",
+	"name": "Testwaitgit",
 	"properties": {
 		"activities": [
 			{
-				"name": "Wait1GIT",
+				"name": "Wait1",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 10
+					"waitTimeInSeconds": 100
 				}
 			}
 		],
 		"annotations": [],
-		"lastPublishTime": "2022-11-18T16:11:17Z"
+		"lastPublishTime": "2023-02-27T19:22:32Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }

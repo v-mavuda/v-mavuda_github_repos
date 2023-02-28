@@ -1,5 +1,5 @@
 {
-	"name": "WaitGIT",
+	"name": "WaitGIT_copy11",
 	"properties": {
 		"activities": [
 			{
@@ -8,7 +8,7 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 10
+					"waitTimeInSeconds": 20
 				}
 			}
 		],
